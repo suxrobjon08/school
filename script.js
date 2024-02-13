@@ -2,7 +2,7 @@ const select = document.getElementById('select');
 const image = document.getElementById('image');
 const cost = document.getElementById('cost');
 
-select.addEventListener('change', function () {
+select.addEventListener('change', function yangilandi () {
     if (select.value == 'oreo') {
         image.src = './images/oreo.png';
         cost.innerHTML = '1.5';
